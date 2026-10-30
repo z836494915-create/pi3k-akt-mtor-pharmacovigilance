@@ -1,0 +1,63 @@
+{
+  "type": "Retrospective spontaneous-report case-noncase disproportionality sensitivity analysis; not a longitudinal patient cohort.",
+  "sources": "Same 29 FAERS releases 2019Q1 through 2026Q1 and latest-report index; stage8 audited PT/exposure cache is explicitly reused.",
+  "unit": "Unique latest PRIMARYID/CASEID report, not a unique patient.",
+  "primary_outcome": [
+    "Diabetic ketoacidosis",
+    "Ketoacidosis",
+    "Metabolic acidosis"
+  ],
+  "sglt2_definition": "Regulator-documented SGLT2-active ingredients, including dual SGLT1/2 sotagliflozin, with salts and combination products. A union of drugname and PROD_AI matches; unknown or unmatched is not evidence of no use. Unmapped GLIFLOZIN-containing terms are audited before estimates.",
+  "exclusions": [
+    "Any PS/SS record matching the locked SGLT2-active dictionary",
+    "Any recorded role matching the same dictionary"
+  ],
+  "contrasts": "Two mTOR target drugs x two exclusion rules = 4 planned contrasts. Preserve existing target PS exposure definition. Symmetrically exclude reports from all four cells. All five original drugs receive descriptive co-report counts only.",
+  "formulation_addendum": "Two separately labelled exploratory FAERS contrasts for explicitly named FYARRO/nab-sirolimus/protein-bound-sirolimus records: PS and PS/SS roles. Generic sirolimus alone never establishes formulation. Keep original five-drug primary family unchanged; show both planned addendum rows even if not estimable.",
+  "multiplicity": "A new BY family contains all estimable tests among the 6 planned additional contrasts; nominal exact 95% CIs and Fisher P also reported. Do not merge into or selectively alter previous families.",
+  "background_change": "Give deleted and remaining a/b/c/d, proportion of background outcome reports excluded, ROR after/before if defined. ROR ratio is descriptive; no causal masking percentage and no independent-estimates test.",
+  "missingness": "Audit PRIMARYID, DRUG_SEQ, drugname, PROD_AI, role, and report-level combinations. Retain unknown-role matches in any-role restriction only. No imputation. Do not infer baseline diabetes or temporal co-use.",
+  "stop_rules": "Stop on report-index mismatch, exposure/PT baseline mismatch, malformed source records affecting classification, unmatched unresolved candidate identities, or a material drugname/ingredient conflict. Never expand exclusions until a desired signal appears.",
+  "scope_dictionary": {
+    "nab_sirolimus_explicit": [
+      "FYARRO",
+      "NAB SIROLIMUS",
+      "SIROLIMUS PROTEIN BOUND",
+      "ALBUMIN BOUND SIROLIMUS"
+    ],
+    "sirolimus_any_formulation": [
+      "SIROLIMUS",
+      "RAPAMUNE",
+      "FYARRO"
+    ],
+    "idelalisib": [
+      "IDELALISIB",
+      "ZYDELIG"
+    ],
+    "duvelisib": [
+      "DUVELISIB",
+      "COPIKTRA"
+    ],
+    "copanlisib": [
+      "COPANLISIB",
+      "ALIQOPA"
+    ],
+    "umbralisib": [
+      "UMBRALISIB",
+      "UKONIQ"
+    ],
+    "leniolisib": [
+      "LENIOLISIB",
+      "JOENJA"
+    ]
+  },
+  "alias_sources": [
+    "https://www.fda.gov/drugs/fda-adverse-event-monitoring-system-aems/july-september-2023-potential-signals-serious-risksnew-safety-information-identified-fda-adverse",
+    "https://www.pmda.go.jp/files/000208624.pdf",
+    "https://www.pmda.go.jp/files/000197771.pdf",
+    "https://www.ema.europa.eu/en/medicines/human/EPAR/zynquista",
+    "https://www.ema.europa.eu/en/medicines/human/EPAR/vokanamet",
+    "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/213312Orig1s000Approv.pdf"
+  ],
+  "status": "Implemented exploratory background-comparison rules; not an original prospective selection protocol."
+}

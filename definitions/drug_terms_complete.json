@@ -1,0 +1,42 @@
+{
+  "alpelisib": [
+    "ALPELISIB",
+    "PIQRAY",
+    "BYL719",
+    "BYL-719",
+    "アルペリシブ",
+    "ピクレイ"
+  ],
+  "inavolisib": [
+    "INAVOLISIB",
+    "ITOVEBI",
+    "GDC0077",
+    "GDC-0077",
+    "イナボリシブ",
+    "イトベビ"
+  ],
+  "capivasertib": [
+    "CAPIVASERTIB",
+    "TRUQAP",
+    "AZD5363",
+    "AZD-5363",
+    "カピバセルチブ",
+    "トルカップ"
+  ],
+  "everolimus": [
+    "EVEROLIMUS",
+    "AFINITOR",
+    "RAD001",
+    "RAD-001",
+    "エベロリムス",
+    "アフィニトール"
+  ],
+  "temsirolimus": [
+    "TEMSIROLIMUS",
+    "TORISEL",
+    "CCI779",
+    "CCI-779",
+    "テムシロリムス",
+    "トーリセル"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "faers_zips": "YOUR_DATA/FAERS",
+  "faers_db": "runs/faers_latest.sqlite",
+  "canada_dir": "YOUR_DATA/cvponline_extract_20260228",
+  "jader_dir": "YOUR_DATA/JADER_202605",
+  "output_dir": "runs/analysis"
+}

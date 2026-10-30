@@ -1,0 +1,53 @@
+{
+  "primary_union": [
+    "Diabetic ketoacidosis",
+    "Ketoacidosis",
+    "Metabolic acidosis"
+  ],
+  "PT_diabetic_ketoacidosis": [
+    "Diabetic ketoacidosis"
+  ],
+  "PT_ketoacidosis": [
+    "Ketoacidosis"
+  ],
+  "PT_metabolic_acidosis": [
+    "Metabolic acidosis"
+  ],
+  "hyperglycemia_domain": [
+    "Hyperglycaemia",
+    "Blood glucose increased",
+    "Diabetes mellitus"
+  ],
+  "dehydration_electrolyte_domain": [
+    "Dehydration",
+    "Hypovolaemia",
+    "Hypokalaemia",
+    "Hyponatraemia"
+  ],
+  "renal_injury_domain": [
+    "Acute kidney injury",
+    "Renal failure",
+    "Renal impairment"
+  ],
+  "severe_metabolic_renal_composite": [
+    "Diabetic ketoacidosis",
+    "Ketoacidosis",
+    "Metabolic acidosis",
+    "Dehydration",
+    "Hypovolaemia",
+    "Hypokalaemia",
+    "Hyponatraemia",
+    "Acute kidney injury",
+    "Renal failure",
+    "Renal impairment"
+  ],
+  "PT_acute_kidney_injury": [
+    "Acute kidney injury"
+  ],
+  "PT_renal_failure": [
+    "Renal failure"
+  ],
+  "PT_renal_impairment": [
+    "Renal impairment"
+  ]
+}

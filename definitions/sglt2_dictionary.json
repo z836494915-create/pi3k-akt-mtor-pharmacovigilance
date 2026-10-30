@@ -1,0 +1,86 @@
+{
+  "final_dictionary": {
+    "canagliflozin": [
+      "CANAGLIFLOZIN",
+      "INVOKANA",
+      "INVOKAMET",
+      "VOKANAMET",
+      "CANAGLU",
+      "CANAGLIFLOZINA",
+      "CANAGLIFLOZINE"
+    ],
+    "dapagliflozin": [
+      "DAPAGLIFLOZIN",
+      "FARXIGA",
+      "FORXIGA",
+      "XIGDUO",
+      "QTERN",
+      "QTERNMET",
+      "DAPAGLIFLOZINA",
+      "DAPAGLIFLOZINE",
+      "DEPAGLIFLOZINE"
+    ],
+    "empagliflozin": [
+      "EMPAGLIFLOZIN",
+      "JARDIANCE",
+      "GLYXAMBI",
+      "SYNJARDY",
+      "TRIJARDY",
+      "EMPAGLIFLOZINA",
+      "EMPAGLIFLOZINE",
+      "EMMPAGLIFLOZIN",
+      "EMPGLIFLOZIN",
+      "EMPAGLIFLORIZINEMPAGLIFLOZIN",
+      "JARDIANCEEMPAGLIFLOZINEMPAGLIFLOZINJARDIANCE"
+    ],
+    "ertugliflozin": [
+      "ERTUGLIFLOZIN",
+      "STEGLATRO",
+      "STEGLUJAN",
+      "SEGLUROMET"
+    ],
+    "bexagliflozin": [
+      "BEXAGLIFLOZIN",
+      "BRENZAVVY"
+    ],
+    "sotagliflozin": [
+      "SOTAGLIFLOZIN",
+      "INPEFA",
+      "ZYNQUISTA"
+    ],
+    "ipragliflozin": [
+      "IPRAGLIFLOZIN",
+      "SUGLAT"
+    ],
+    "luseogliflozin": [
+      "LUSEOGLIFLOZIN",
+      "LUSEFI"
+    ],
+    "tofogliflozin": [
+      "TOFOGLIFLOZIN",
+      "DEBERZA",
+      "APLEWAY"
+    ],
+    "enavogliflozin": [
+      "ENAVOGLIFLOZIN"
+    ],
+    "henagliflozin": [
+      "HENAGLIFLOZIN"
+    ],
+    "remogliflozin": [
+      "REMOGLIFLOZIN"
+    ]
+  },
+  "sources": {
+    "enavogliflozin": "https://pubmed.ncbi.nlm.nih.gov/36872067/",
+    "henagliflozin": "https://pubmed.ncbi.nlm.nih.gov/38686508/",
+    "remogliflozin": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7165159/"
+  },
+  "ambiguous_names_excluded": [
+    "2 GLIFLOZIN",
+    "APAGLIFLOZIN",
+    "MPAGLIFLOZIN"
+  ],
+  "ambiguous_rule": "These truncated or class-only names do not securely establish an ingredient; exclude these rows from dictionary classification rather than guess. Other identified drug rows in the same report can still qualify.",
+  "matching_rule": "Explicit aliases only; no automatic fuzzy matching. Nonnormalized source names remain available in local audit outputs."
+}

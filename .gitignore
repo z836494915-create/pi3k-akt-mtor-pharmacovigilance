@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+config.local.json
+*.local.json
+runs/
+YOUR_DATA/
+*.sqlite
+*.sqlite3
+*.db
+*.pkl
+*.npz
+*.log
+*DO_NOT_PUBLISH*
